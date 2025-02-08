@@ -133,3 +133,39 @@
 ✅ Explored forms, media elements, semantic tags, and navigation.  
 ✅ Covered practical examples & common use cases.  
 🎉 Now you're ready to build web pages!
+
+---
+### Project Exercise 1: Blog Website
+
+#### Topic Covered: HTML
+
+### Description:
+
+Build a simple blog webpage that includes essential HTML elements like:
+- Headings (`<h1>` to `<h6>`)
+- Paragraphs (`<p>`)
+- Unordered & Ordered Lists (`<ul>`, `<ol>`)
+- Links (`<a>`)
+- Images (`<img>`)
+
+### The page should start with a DOCTYPE declaration and include the essential HTML tags:
+- `<html>`
+- `<head>`
+- `<body>`
+
+---
+
+## Inspiration
+
+![Reference Image 1](pp.png)
+![Reference Image 2](pp1.png)
+
+---
+
+## My Output Screenshots
+
+![Output Screenshot 1](task3.1.png)
+![Output Screenshot 2](task3.2.png)
+
+
+
