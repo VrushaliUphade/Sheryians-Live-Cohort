@@ -1,0 +1,29 @@
+// 1. console.log :- The console.log() method is used to print messages to the console.
+console.log("hello");     // This prints "hello" in the console.
+
+//2. console.warn() :- The console.warn() method is used to display warning messages in the console.
+console.warn("This is warning"); 
+
+//3. console.error() :- The console.error() method is used to display error messages in the console.
+console.error("This is error")
+
+
+//4. Variable Declartion :- Declaring a variable using var.
+// 'var' is used to declare variables globally or function-scoped.
+var a;         // This declares a variable 'a' without assigning a value.
+
+//5. Variable Initialization :- Initializing the variable 'a' with a value.
+// Variable initialization means assigning an initial value to a declared variable.
+a = 20;              // Initializing 'a' with the value 20.
+
+//6. Printing the value of 'a' to the console.
+console.log(a);       // This prints the value of 'a' (20) in the console.
+
+//7. Alert :- // The alert() method displays an alert box with a specified message.
+alert('Are you sure!'); // This shows an alert box with the message 'Are you sure!'
+//8. confirm :- The confirm() method displays a dialog box with OK and Cancel buttons.
+confirm('Are you okk');      // This shows a confirmation box with the message 'Are you okk'
+
+//9. prompt :- The prompt() method displays a dialog box that asks the user for input.
+prompt("Enter your name");    // This prompts the user to enter their name.
+
