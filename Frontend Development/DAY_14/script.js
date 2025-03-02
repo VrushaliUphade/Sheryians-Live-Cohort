@@ -6,3 +6,4 @@
 // alert('Are you sure!')
 // confirm('Are you okk')
 // prompt("Enter your name")
+ //
