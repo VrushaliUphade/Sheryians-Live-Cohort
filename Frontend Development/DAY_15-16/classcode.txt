@@ -1,0 +1,114 @@
+//Day_16 classcode
+
+// Slice a portion of the string
+let str = "Apple";
+let ans = str.slice(0,3); // Gets 'App'
+
+// String literals with template literals
+let str2 = my age is ${19+1};
+console.log(str2); // Output: "my age is 20";
+
+//split 
+let str3 = "Hello ji kaise hoo"
+let ans = str3.split('i');
+
+// Replace first occurrence of 'i' with 'y'
+let str4 = "Hello ji kaise hoo";
+let ans4 = str4.replace('i','y');
+console.log(ans4); // Output: "Hello jy kaise hoo"
+
+// Check if string includes a character
+let str5 = "hello, world";
+let ans4 = str5.includes(",");
+console.log(ans4); // Output: true
+
+//Conditional operators in JavaScript
+//types of conditional operators
+//1.if : Exectues code if conditon is true
+//if
+let a = 12;
+if(a>11){
+    console.log("hey");
+}
+
+//2.else : Exectues code if conditon is false
+else{
+console.log("hello");
+
+}
+
+//3. if-else : Combination of if and else
+let a = 2;
+if(a>11){
+    console.log("hey");
+}
+else{
+console.log("hello");
+}
+
+//4. else-if : Used for multiple conditions.
+let a = 2;
+if(a>11){
+    console.log("hey");
+}
+else if(a>12){
+console.log("hello");
+}
+else{
+    console.log("nothing");  
+}
+
+//5. Termary operator : Shorter way to write if-else.
+//condition ? () : ()  it the combination of ? and : 
+12>11 ? console.log("yes") : console.log("No");
+
+//6. Switch : Alternative to multiple if-else conditions.
+switch(value){
+//     case value : 
+//     code
+//     break;
+//     case value : 
+//     code
+//     break;
+//     ...
+//     ...
+//     ...
+//     default:
+//     code
+// }
+
+switch (3) {
+    case 1:
+        console.log("One");
+        break;
+    case 2:
+        console.log("Two");
+        break;
+    case 3:
+        console.log("Three");
+        break;
+    default:
+        console.log("Default");
+}
+
+//Loops in JavaScript
+//loop types 
+//1.for : Exectues a block of code multiple times
+for(start; end; change){  
+// }
+//.streath forward loo[]
+for(var i =12; i<32; i++){  
+console.log("hello");
+}
+//.
+let arr = [1,2,3,4,5,6];
+// for(let i; i=arr.length; i++){  
+// }
+//2.while : Exectues a block while a condition is true
+
+
+//3.dowhile : Exectues the block at least once before checking condition.
+//foreach : iterates over an array (only for array).
+//for..in : Loops over object properties.
+//for..of : Loops over iterable objects [arrays,strings]
+//recursion : A Function calling itself until a condition is met. 
